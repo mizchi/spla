@@ -1,12 +1,11 @@
 let handlerLookup = {
-  "new:msg": msg => {
+  "update": msg => {
     console.log(msg);
-  },
-
-  "user:entered": msg => {
-    var username = msg.user || "anonymous";
-    console.log(`[${username} entered]`);
   }
+  // "user:entered": msg => {
+  //   var username = msg.user || "anonymous";
+  //   console.log(`[${username} entered]`);
+  // }
 };
 
 export default function(chan) {

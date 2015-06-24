@@ -19,7 +19,12 @@
     "gulp-sass": "^2.0.1",
     "gulp-shell": "^0.4.1",
     "gulp-watchify": "^0.5.0",
+    "lodash": "^3.9.1",
     "purecss": "^0.6.0",
+    "react": "^0.13.3",
     "watchify": "^3.2.1"
+  },
+  "dependencies": {
+    "uuid": "^2.0.1"
   }
 }
